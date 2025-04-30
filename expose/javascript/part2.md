@@ -78,3 +78,16 @@ Boolean(2) is true, so `true === true` is true.
 ## 15
 The `==` operator is loose equality, it compares two values for equality **after** converting them to a common type.
 The `===` operator is strict equality, it compares both **value and type** without any type conversion.
+
+## 17
+**[2, 4, 6]**
+Calling modifyArray([1, 2, 3], doSomething) returns [2, 4, 6] because it applies the doSomething function (which doubles each number) to every element in the array.
+
+## 19
+```
+1
+4
+3
+2
+```
+
